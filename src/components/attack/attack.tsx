@@ -1,4 +1,3 @@
-import React from "react"
 import { useAttackContext } from "../../context/attackContext/attackContext"
 import './attack.css'
 

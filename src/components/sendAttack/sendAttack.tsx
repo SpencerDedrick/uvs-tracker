@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react'
+import { useCallback } from 'react'
 
 import { usePlayerContext } from '../../context/playerContext/playerContext'
 import { useAttackContext } from '../../context/attackContext/attackContext'
