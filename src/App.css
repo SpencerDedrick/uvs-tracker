@@ -1,0 +1,52 @@
+/* Global styles and styles related to general layout */
+
+html,
+body {
+  background-image: url('./assets/background_image.png');
+  background-color: #0a0a0af6;
+  background-blend-mode: darken;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+
+}
+
+html * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  max-width: 1440px;
+}
+
+.app {
+
+  min-height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  overflow: hidden;
+  display: flex;
+  height: 100vh;
+  max-width: 700px;
+  margin: auto;
+}
+
+.page {
+  width: 100%;
+  min-height: 100%;
+  padding: 2rem;
+  max-width: 1440px;
+  margin: auto;
+}
+
+@media (max-width: 756px) {
+
+  .hide-on-mobile {
+    display: none;
+  }
+}
+
